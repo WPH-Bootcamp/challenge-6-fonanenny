@@ -3,3 +3,13 @@
 // Petunjuk: gunakan type alias atau interface untuk mendefinisikan struktur data ini
 // Pastikan tipe data untuk setiap properti sudah sesuai dengan kebutuhan
 
+// ─────────────────────────────────────────────
+// TYPE ALIAS: Book
+// Mendefinisikan struktur data untuk satu buku
+// ─────────────────────────────────────────────
+
+export type Book = {
+  title: string; // judul bukunya
+  author: string; // nama penulisnya
+  publicationYear: number; // tahun terbitnya
+};
